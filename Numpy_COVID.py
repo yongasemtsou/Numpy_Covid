@@ -28,6 +28,4 @@ class Virus():
         self.axes.set_yticklabels([])
         self.axes.set_ylim(0,1)
 
-        self.day_text =self.axes.annote{
-            'Day 0', xy=[np.pi /2,1], ha='center',va='bottom'
-        }
+        self.day_text =self.axes.annote{'Day 0', xy=[np.pi /2,1], ha='center',va='bottom'}
